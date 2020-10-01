@@ -5,7 +5,7 @@ import  PokemonsContainer from "./containers/PokemonsContainer";
 
 export default function App() {
     const client = new ApolloClient({
-        uri: 'https://graphql-pokemon.now.sh'
+        uri: 'https://graphql-pokemon2.vercel.app/'
     });
 
     return (
