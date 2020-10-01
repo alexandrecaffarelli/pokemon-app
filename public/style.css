@@ -113,3 +113,25 @@ body {
     padding: 5px 20px;
     border-radius: 5px;
 }
+
+@media (max-width: 800px) {
+    .container .pokemon {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .container .pokemon--attacks, .container .pokemon--meta {
+        flex-wrap: wrap;
+    }
+    
+    .container .pokemon--meta span,
+    .container .pokemon--attacks span,
+    .container .pokemon {
+        width: 100%;
+    }
+    
+    .container .pokemon--meta span {
+        margin-bottom: 10px;
+    }
+}
